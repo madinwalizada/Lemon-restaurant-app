@@ -14,6 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+https://github.com/madinwalizada/Lemon-restaurant-app/blob/main/Screenshot%202024-06-13%20at%2015.34.37.png
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
