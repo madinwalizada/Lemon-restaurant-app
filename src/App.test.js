@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom"; // Import MemoryRouter
+import BookingForm from "./Components/BookingForm";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("Renders the BookingForm heading", () => {
+  render(
+    <MemoryRouter>
+      <BookingForm />
+    </MemoryRouter>
+  );
+  const headingElement = screen.getByText("Choose date"); // Adjust the text according to your actual heading
+  expect(headingElement).toBeInTheDocument();
 });
